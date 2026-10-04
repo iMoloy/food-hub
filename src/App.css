@@ -1,0 +1,26 @@
+.nav-container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px;
+background: rgba(41, 39, 39, 0.178);
+}
+.nav-left{
+display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+}
+.nav-left img{
+      width: 50px;
+      margin: 0 auto;
+      border-radius: 50%;
+}
+.nav-right{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+}
