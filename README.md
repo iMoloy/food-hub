@@ -1,16 +1,41 @@
-# React + Vite
+# 🍔 Food Hub (MealHub)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive React 19 application for searching and discovering food recipes using TheMealDB API. 
 
-Currently, two official plugins are available:
+## ✨ Features
+- **Search:** Find any food recipe by its name instantly.
+- **Category Filter:** Filter recipes by specific categories like Beef, Seafood, Vegetarian, etc.
+- **Recipe Details:** Click on any recipe card to open a detailed modal containing the full list of ingredients, step-by-step cooking instructions, and an embedded YouTube video tutorial.
+- **Favorites System:** Save your favorite recipes locally using your browser's LocalStorage. They'll be right there when you come back!
+- **Modern UI:** Built with Tailwind CSS v4, featuring a beautiful glassmorphic navigation bar, smooth animations, and a fully responsive grid design.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Tech Stack
+- **Frontend:** React 19, Vite
+- **Styling:** Tailwind CSS v4
+- **Icons:** Lucide React
+- **API:** [TheMealDB](https://www.themealdb.com/api.php)
 
-## React Compiler
+## 🚀 Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+To run this project locally, follow these steps:
 
-## Expanding the ESLint configuration
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/iMoloy/food-hub.git
+   cd food-hub
+   ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser and visit `http://localhost:5173/`
+
+## 👨‍💻 Developed By
+Part of the Project Improvement Roadmap.
